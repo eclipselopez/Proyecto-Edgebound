@@ -1,0 +1,23 @@
+---
+api: 
+  idenfier: proyect-edgbound
+  port: "5002"
+
+logger:
+  options:
+    level: trace
+
+mongodb:
+  url: 'mongodb://127.0.0.1:27017'
+  database: 'product'
+  schema: mongodb
+  hostname: '127.0.0.1'
+  port: '27017'
+  timeout: '5000'
+  options:
+    user: ''
+    pass: ''
+    authSource: 'admin'
+    dbName: 'product'
+    useUnifiedTopology: true
+    useNewUrlParser: true
