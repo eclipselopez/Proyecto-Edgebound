@@ -1,7 +1,7 @@
 {
-    "name": "proyect-edgebound",
+    "name": "backend-edgebound",
     "version": "0.0.1",
-    "description": "Servicio REST GET (simulador de búsqueda ecommerce)",
+    "description": "simulador de búsqueda ecommerce",
     "main": "index.js",
     "scripts": {
         "dev:server": "nodemon --watch src/**/*",
@@ -11,7 +11,7 @@
         "build": "rimraf ./build && tsc --build",
         "start": "npm run build && node build/src/index.js | npx pino-pretty -t SYS:yyyy-mm-dd,HH:MM:ss"
     },
-    "author": "Salvador López Velázquez",
+    "author": "Luis Javier Ortiz Alonso",
     "license": "ISC",
     "dependencies": {
         "config": "^3.3.9",
